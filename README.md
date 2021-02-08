@@ -15,8 +15,8 @@ xmlns:cvt="clr-namespace:LoongEgg.Converters;assembly=LoongEgg.Converters"
 ### 2.Using the converter you need easily and directly
 ```xml
 <Button
-                    Width="120"
-                    HorizontalAlignment="Left"
-                    Command="{Binding SenderOpenOrCloseCommand}"
-                    Content="{Binding Sender.IsOpen, Converter={cvt:FalseToOpenStringConverter}, FallbackValue=打开/关闭}" />          
+    Width="120"
+    HorizontalAlignment="Left"
+    Command="{Binding SenderOpenOrCloseCommand}"
+    Content="{Binding Sender.IsOpen, Converter={cvt:FalseToOpenStringConverter}, FallbackValue=打开/关闭}" />          
 ```
