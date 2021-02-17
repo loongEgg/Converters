@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>LoongEgg.Converters</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>LoongEgg</authors>
+    <owners>LoongEgg</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/loongEgg/Converters</projectUrl>
+    <description>Converters can be used directly in Wpf Xaml File</description>
+    <releaseNotes>First Release Experimental</releaseNotes>
+    <copyright>Copyright 2021 C loongEgg</copyright>
+    <tags>Wpf Xaml</tags>
+  </metadata>
+</package>
