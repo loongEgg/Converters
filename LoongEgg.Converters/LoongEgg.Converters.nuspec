@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>LoongEgg.Converters</id>
+    <version>1.2.4</version>
+    <title>LoongEgg.Converters</title>
+    <authors>LoongEgg</authors>
+    <owners>LoongEgg</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <projectUrl>https://github.com/loongEgg/Converters</projectUrl>
+    <description>Common instances of IValueConverter for WPF, can be used directly in xaml as MarkupExtension.
+Make great benefit for MVVM program.</description>
+	<releaseNotes>New Converter:
+  1.TrueToBrushConverter</releaseNotes>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Debug\LoongEgg.Converters.dll" target="lib\net45\LoongEgg.Converters.dll" />
+    <file src="bin\Debug\LoongEgg.Converters.xml" target="lib\net45\LoongEgg.Converters.xml" />
+	<file src="..\LICENSE" target="LICENSE" />
+  </files>
+</package>
